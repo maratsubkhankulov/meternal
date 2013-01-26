@@ -14,6 +14,13 @@ public class TunnelSection : MonoBehaviour {
 	void Start () {
 		int tunnelIndex = RandomUtil.random.Next(0, tunnelTriggers.Length);
 		correctDirection = tunnelTriggers[tunnelIndex].direction;
+		Vector3 entrancePosition = new Vector3(0,0,0);
+		foreach (TunnelEntranceVector entrance in tunnelEntrances) {
+			if (entrance.direction.Equals(correctDirection)) {
+				entrancePosition = entrance.offset;
+			}
+		}
+		GameObject.FindGameObjectWithTag(Tags.MotherCall).transform.position = transform.position + entrancePosition;
 		Debug.Log ("Correct tunnel is: "+correctDirection);
 	}
 	
