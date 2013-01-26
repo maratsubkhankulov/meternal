@@ -37,21 +37,26 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BabyControl.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\ChoiceTrigger.cs" />
      <Compile Include="Assets\Scripts\DebugUtils.cs" />
+     <Compile Include="Assets\Scripts\Decisions.cs" />
      <Compile Include="Assets\Scripts\HeartbeatAnimation.cs" />
      <Compile Include="Assets\Scripts\HeartbeatTrigger.cs" />
      <Compile Include="Assets\Scripts\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Messaging\ChoiceTriggerEventArgs.cs" />
      <Compile Include="Assets\Scripts\Messaging\HeartbeatTriggerEventArgs.cs" />
      <Compile Include="Assets\Scripts\Messaging\Messenger.cs" />
+     <Compile Include="Assets\Scripts\Messaging\TunnelChoiceEventArgs.cs" />
+     <Compile Include="Assets\Scripts\MotherCallPlayer.cs" />
      <Compile Include="Assets\Scripts\RandomUtil.cs" />
      <Compile Include="Assets\Scripts\Tags.cs" />
      <Compile Include="Assets\Scripts\TempoPlayer.cs" />
