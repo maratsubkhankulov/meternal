@@ -2,7 +2,8 @@ using System;
 
 public class Tags
 {
-	// Tags
+	// Tags	
+	public const string MotherCall = "MotherCall";
 	public const string Baby = "Baby";
 	
 }
