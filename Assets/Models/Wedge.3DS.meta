@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dfb7adf33cf412a47b86b7f924964b28
+guid: bbcd191c4e724a94fa2aeed58954a322
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
@@ -7,8 +7,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: mesh006
-    4300002: mesh05
+    4300000: Box001
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -38,9 +37,9 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
   tangentSpace:
-    normalSmoothAngle: 180
+    normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0

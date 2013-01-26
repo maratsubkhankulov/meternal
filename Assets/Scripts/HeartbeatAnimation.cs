@@ -2,8 +2,8 @@ using UnityEngine;
 using System.Collections;
 
 public class HeartbeatAnimation : MonoBehaviour {
-    public Animation startAnimation;
-    public Animation endAnimation;
+    public AnimationClip startAnimation;
+    public AnimationClip endAnimation;
 
     private Messenger.Subscription<HeartbeatTriggerEventArgs> _heartbeatSub;
     private TempoPlayer _tempoPlayer;
@@ -21,6 +21,6 @@ public class HeartbeatAnimation : MonoBehaviour {
 
     private void OnHeartBeat(HeartbeatTriggerEventArgs eventArgs)
     {
-        startAnimation.Play();
+        animation.Play(startAnimation.name);
     }
 }

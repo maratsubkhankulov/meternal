@@ -8,11 +8,13 @@ ModelImporter:
     100004: mesh006
     100006: mesh05
     100008: //RootNode
+    100010: Shape001
     400000: Camera001
     400002: Camera001.Target
     400004: mesh006
     400006: mesh05
     400008: //RootNode
+    400010: Shape001
     2300000: mesh006
     2300002: mesh05
     3300000: mesh006
