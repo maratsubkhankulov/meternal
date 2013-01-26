@@ -1,13 +1,13 @@
 using UnityEngine;
 using System.Collections;
 
-public class TunnelTrigger : MonoBehaviour {
+public class HeartbeatTrigger : MonoBehaviour {
 
-    private TunnelSection _tunnelTrigger;
+    private Messenger.Subscription<HeartbeatTriggerEventArgs> _heartbeatSub;
 
 	// Use this for initialization
 	void Start () {
-        _tunnelTrigger = transform.parent.GetComponent<TunnelSection>();
+        
 	}
 	
 	// Update is called once per frame
@@ -17,6 +17,6 @@ public class TunnelTrigger : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        _tunnelTrigger.OnChildTriggerEnter(this.collider, other);
+        Messenger.Instance.SendMessage(new HeartbeatTriggerEventArgs());
     }
 }
