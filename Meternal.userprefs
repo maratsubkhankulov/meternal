@@ -1,6 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Decisions.cs">
+    <Files>
+      <File FileName="Assets\Scripts\MotherCallPlayer.cs" Line="11" Column="9" />
+      <File FileName="Assets\Scripts\HeartbeatAnimation.cs" Line="14" Column="53" />
+      <File FileName="Assets\Scripts\ChoiceTrigger.cs" Line="18" Column="7" />
+      <File FileName="Assets\Scripts\Decisions.cs" Line="6" Column="19" />
+      <File FileName="Assets\Scripts\Messaging\TunnelChoiceEventArgs.cs" Line="9" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -72,9 +72,9 @@ public class Messenger : MonoBehaviour {
 
     private void Invoke(InternalMessage internalMessage)
     {
-        DebugUtils.Log(string.Format("Dispatching message: {0}, Instant: {1}{2}", internalMessage.EventArgs,
-                                     internalMessage.Instant,
-                                     internalMessage.Instant ? "" : ", Priority: " + internalMessage.Priority));
+        //DebugUtils.Log(string.Format("Dispatching message: {0}, Instant: {1}{2}", internalMessage.EventArgs,
+         //                            internalMessage.Instant,
+         //                            internalMessage.Instant ? "" : ", Priority: " + internalMessage.Priority));
 
         var eventArgs = internalMessage.EventArgs;
         var typeKey = eventArgs.GetType();
