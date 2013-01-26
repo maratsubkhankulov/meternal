@@ -49,7 +49,8 @@
      <Compile Include="Assets\Scripts\DebugUtils.cs" />
      <Compile Include="Assets\Scripts\InputManager.cs" />
      <Compile Include="Assets\Scripts\Messenger.cs" />
-     <Compile Include="Assets\Scripts\TunnelGenerator.cs" />
+     <Compile Include="Assets\Scripts\Tags.cs" />
+     <Compile Include="Assets\Scripts\TunnelTrigger.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
