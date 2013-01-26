@@ -3,10 +3,10 @@ using System.Collections;
 
 public class TempoPlayer : MonoBehaviour {
 	
-	public bool play = false;
+	public bool play = true;
 	public float period = 1; //play sound after this period
+
 	private float _elapsed = 0;
-	public AudioSource audioSource;
 	
 	// Use this for initialization
 	void Start () {
@@ -15,10 +15,10 @@ public class TempoPlayer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		_elapsed += Time.deltaTime;
-		if (_elapsed > period) {
-			_elapsed = 0;
+		if (_elapsed > period && play) {
+			_elapsed -= period;
 			// Play sound
-			audioSource.Play();
+			audio.Play();
 		}
 	}
 }

@@ -47,12 +47,14 @@
      <Compile Include="Assets\Scripts\BabyControl.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\DebugUtils.cs" />
+     <Compile Include="Assets\Scripts\HeartbeatAnimation.cs" />
      <Compile Include="Assets\Scripts\HeartbeatTrigger.cs" />
      <Compile Include="Assets\Scripts\InputManager.cs" />
      <Compile Include="Assets\Scripts\Messaging\HeartbeatTriggerEventArgs.cs" />
      <Compile Include="Assets\Scripts\Messaging\Messenger.cs" />
      <Compile Include="Assets\Scripts\RandomUtil.cs" />
      <Compile Include="Assets\Scripts\Tags.cs" />
+     <Compile Include="Assets\Scripts\TempoPlayer.cs" />
      <Compile Include="Assets\Scripts\TunnelSection.cs" />
      <Compile Include="Assets\Scripts\TunnelTrigger.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
